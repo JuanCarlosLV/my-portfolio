@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    background-color: #282828;
+}
+
+@font-face {
+    font-family: 'consolas';
+    font-weight: normal;
+    src: url("src/assets/Fonts/Consolas-Font/CONSOLA.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: 'consolas';
+    font-weight: bold;
+    src: url("src/assets/Fonts/Consolas-Font/CONSOLAB.TTF") format("truetype");
+}
