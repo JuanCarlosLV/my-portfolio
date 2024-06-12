@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
 function Footer() {
   return (
-    <div>Footer</div>
-  )
+    <>
+      <article className="flex flex-row">
+        asdasd
+      </article>
+    </>
+  );
 }
 
-export default Footer
+export default Footer;
