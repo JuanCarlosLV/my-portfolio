@@ -3,7 +3,7 @@ const proyectos = [
     title: "Intradeshop",
     websiteurl: "",
     github: "https://github.com/JuanCarlosLV/Intradeshop_web",
-    image: "/src/assets/Images/intradeshop_ss.png",
+    image: "/src/assets/images/intradeshop_ss.png",
     description:
       "Sitio web e-commerce cuyo objetivo es brindar una plataforma a los negocios locales y brindarles una visibilidadmayor de sus productos. Creado con React, TailwindCSS y supabase",
     tecnologies: [
@@ -29,7 +29,8 @@ const proyectos = [
     websiteurl: "",
     github: "https://github.com/KeilaCruz/Sistema_Recom",
     image: "/src/assets/Images/recom_ss.png",
-    description:  "Sitio web e-commerce cuyo objetivo es brindar una plataforma a los negocios locales y brindarles una visibilidadmayor de sus productos. Creado con React, TailwindCSS y supabase",
+    description:
+      "Sitio web e-commerce cuyo objetivo es brindar una plataforma a los negocios locales y brindarles una visibilidadmayor de sus productos. Creado con React, TailwindCSS y supabase",
     tecnologies: [
       {
         name: "React",
@@ -63,7 +64,7 @@ const trabajos = [
     ],
     logoEnterprise: "/src/assets/Icons/uv.svg",
   },
-   {
+  {
     job: "Desarrollador Front-end",
     place: "Universidad Veracruzana",
     dateStarted: "Agosto 2022",

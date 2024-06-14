@@ -7,7 +7,7 @@ import Navbar from "./Components/Navbar";
 import CardExperience from "./Components/CardExperience";
 import AboutMe from "./Components/AboutMe";
 import SkillPill from "./Components/SkillPill";
-import ContacMe from "./Components/ContacMe";
+
 
 function App() {
   return (

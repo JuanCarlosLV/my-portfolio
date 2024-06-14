@@ -34,12 +34,12 @@ function CardProject({ project }) {
           <div className="flex gap-3 mt-3">
             <SocialButton
               logo="/src/assets/icons/github.svg"
-              icono={"Código"}
+              label={"Código"}
               url={project.github}
             />
             <SocialButton
               logo="/src/assets/icons/website.svg"
-              icono={"Sitio web"}
+              label={"Sitio web"}
               url={project.websiteurl}
             />
           </div>
