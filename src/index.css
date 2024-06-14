@@ -1,22 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-color: #282828;
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #282828;
+  opacity: 1;
+  background-image: radial-gradient(
+    rgba(76, 76, 76, 0.5) 1.4000000000000001px,
+    #282828 2px
+  );
+  background-size: 28px 28px;
 }
 
 @font-face {
-    font-family: 'consolas';
-    font-weight: normal;
-    src: url("src/assets/Fonts/Consolas-Font/CONSOLA.TTF") format("truetype");
+  font-family: "corbel";
+  font-weight: normal;
+  font-style: normal;
+  src: url("src/assets/Fonts/corbel/CORBEL.TTF") format("truetype");
 }
 
 @font-face {
-    font-family: 'consolas';
-    font-weight: bold;
-    src: url("src/assets/Fonts/Consolas-Font/CONSOLAB.TTF") format("truetype");
+  font-family: "corbel";
+  font-weight: bold;
+  font-style: normal;
+  src: url("src/assets/Fonts/corbel/CORBELB.TTF") format("truetype");
+}
+
+@media (prefer-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
