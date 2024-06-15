@@ -8,7 +8,6 @@ import CardExperience from "./Components/CardExperience";
 import AboutMe from "./Components/AboutMe";
 import SkillPill from "./Components/SkillPill";
 
-
 function App() {
   return (
     <>
@@ -23,7 +22,7 @@ function App() {
           <article className="profile flex space-x-[10px]">
             <figure>
               <img
-                src="/src/assets/Images/profile-photo.jpg"
+                src="/images/profile-photo.jpg"
                 alt="foto de perfil de Juan Carlos López"
                 className="rounded-[50%] w-[80px] h-[80px] object-cover"
               />
@@ -52,18 +51,18 @@ function App() {
               <SocialButton
                 label={"Linkedin"}
                 url={"www.linkedin.com/in/juancarloslopezvillegas"}
-                logo={"/src/assets/icons/linkedin-in.svg"}
+                logo={"/icons/linkedin-in.svg"}
               />
               <SocialButton
                 label={"Github"}
                 url={"https://github.com/JuanCarlosLV"}
-                logo={"/src/assets/icons/github.svg"}
+                logo={"/icons/github.svg"}
               />
 
               <SocialButton
                 label={"Contactame"}
                 url={"mailto:lopesjuancarlos216@gmail.com"}
-                logo={"/src/assets/icons/email.svg"}
+                logo={"/icons/email.svg"}
               />
             </div>
           </section>
@@ -72,13 +71,11 @@ function App() {
             <header className="inline-flex justify-start items-center gap-2 text-white -ml-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="30"
-                viewBox="0 0 24 24"
+                viewBox="0 -960 960 960"
+                width="30px"
                 fill="#FFF8F0"
-                class="icon icon-tabler icons-tabler-filled icon-tabler-code-circle"
               >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M17 3.34a10 10 0 1 1 -15 8.66l.005 -.324a10 10 0 0 1 14.995 -8.336m-6.293 5.953a1 1 0 0 0 -1.414 0l-2 2a1 1 0 0 0 0 1.414l2 2a1 1 0 0 0 1.414 0l.083 -.094a1 1 0 0 0 -.083 -1.32l-1.292 -1.293l1.292 -1.293a1 1 0 0 0 0 -1.414m4 0a1 1 0 0 0 -1.414 0l-.083 .094a1 1 0 0 0 .083 1.32l1.292 1.293l-1.292 1.293a1 1 0 0 0 1.414 1.414l2 -2a1 1 0 0 0 0 -1.414z" />
+                <path d="m384-336 56-57-87-87 87-87-56-57-144 144 144 144Zm192 0 144-144-144-144-56 57 87 87-87 87 56 57ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Z" />
               </svg>
               <span className="text-[30px] font-bold">Proyectos</span>
             </header>
@@ -101,12 +98,13 @@ function App() {
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"
                 viewBox="0 0 24 24"
-                fill="#FFF8F0"
-                class="icon icon-tabler icons-tabler-filled icon-tabler-briefcase-2"
+                fill="#fff8f0"
+                class="icon icon-tabler icons-tabler-filled icon-tabler-briefcase"
               >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M14 2a3 3 0 0 1 3 3v1h2a3 3 0 0 1 3 3v9a3 3 0 0 1 -3 3h-14a3 3 0 0 1 -3 -3v-9a3 3 0 0 1 3 -3h2v-1a3 3 0 0 1 3 -3zm0 2h-4a1 1 0 0 0 -1 1v1h6v-1a1 1 0 0 0 -1 -1" />
+                <path d="M22 13.478v4.522a3 3 0 0 1 -3 3h-14a3 3 0 0 1 -3 -3v-4.522l.553 .277a20.999 20.999 0 0 0 18.897 -.002l.55 -.275zm-8 -11.478a3 3 0 0 1 3 3v1h2a3 3 0 0 1 3 3v2.242l-1.447 .724a19.002 19.002 0 0 1 -16.726 .186l-.647 -.32l-1.18 -.59v-2.242a3 3 0 0 1 3 -3h2v-1a3 3 0 0 1 3 -3h4zm-2 8a1 1 0 0 0 -1 1a1 1 0 1 0 2 .01c0 -.562 -.448 -1.01 -1 -1.01zm2 -6h-4a1 1 0 0 0 -1 1v1h6v-1a1 1 0 0 0 -1 -1z" />
               </svg>
+
               <span className="text-[30px] font-bold">Experiencia</span>
             </header>
 

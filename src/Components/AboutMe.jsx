@@ -23,7 +23,7 @@ function AboutMe() {
 
         <figure className=" ">
           <img
-            src="/src/assets/images/profile-photo.jpg"
+            src="/images/profile-photo.jpg"
             alt="foto de perfil de Juan Carlos"
             className="w-[200px] h-[100px] rounded-[50%] object-cover"
           />
