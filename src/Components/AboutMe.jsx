@@ -17,7 +17,7 @@ function AboutMe() {
             Dentro del desarrollo de software, me gusta mucho el desarrollo
             frontend y me apasiona el diseño UI/UX. En el futuro espero
             colaborar y aportar mis conocimientos en alguna empresa de
-            desarrollo en el extranjero.
+            desarrollo en el extranjero
           </p>
         </div>
 
