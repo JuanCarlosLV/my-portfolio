@@ -87,6 +87,8 @@ function App() {
                 </>
               ))}
             </div>
+
+            <p className="flex justify-end mt-4 text-primaryColor transition duration-300 animate-pulse">Más proyectos en camino...</p>
           </section>
 
           <section
@@ -115,6 +117,7 @@ function App() {
                 </>
               ))}
             </div>
+
           </section>
 
           <section id="habilidades" className="skills flex flex-col  mt-[77px]">

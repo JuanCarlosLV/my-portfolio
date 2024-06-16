@@ -64,18 +64,6 @@ const trabajos = [
     ],
     logoEnterprise: "/icons/uv.svg",
   },
-  {
-    job: "Desarrollador Front-end",
-    place: "Universidad Veracruzana",
-    dateStarted: "Agosto 2022",
-    dateFinished: "Actualmente",
-    listWorks: [
-      "Desarrollo de páginas web para proyectos de la Universidad Veracruzana",
-      "Realización del diseño UI/UX de dichos sitios ",
-      "Análisis de requerimientos y diseño del software (sitios web)",
-    ],
-    logoEnterprise: "/icons/uv.svg",
-  },
 ];
 const skills = [
   {
