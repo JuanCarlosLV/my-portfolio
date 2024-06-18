@@ -43,7 +43,7 @@ function App() {
               <strong className="text-secondaryColor">
                 Estudiante de Ingeniería de software
               </strong>{" "}
-              con 2 años de experiencia en el desarrollo web. Especializado en
+              con experiencia en el desarrollo de aplicaciones web. Especializado en
               el desarrollo frontend y diseño UI/UX.
             </p>
 
