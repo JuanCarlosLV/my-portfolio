@@ -31,6 +31,7 @@ export default {
       animation: {
         "adjust-header": "adjust-header 1s linear both",
       },
+      
     },
   },
   plugins: [],

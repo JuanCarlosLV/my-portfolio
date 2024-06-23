@@ -18,6 +18,10 @@ body {
   background-size: 28px 28px;
 }
 
+.hover-drop-shadow:hover {
+  filter: drop-shadow(0 0 15px var(--shadow-color));
+}
+
 @font-face {
   font-family: "corbel";
   font-weight: normal;
