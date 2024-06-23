@@ -69,38 +69,47 @@ const skills = [
   {
     name: "React",
     icon: "/icons/react.svg",
+    color: "rgba(0,216,255,0.5)",
   },
   {
     name: "Javascript",
     icon: "/icons/javascript.svg",
+    color: "rgba(255,204,0,0.5)",
   },
   {
     name: "HTML",
     icon: "/icons/html5.svg",
+    color: "rgba(255,51,51,0.5)",
   },
   {
     name: "CSS",
     icon: "/icons/css.svg",
+    color: "rgba(0,153,255,0.5)",
   },
   {
     name: "Figma",
     icon: "/icons/figma.svg",
+    color: "rgba(0,0,0,0.5)",
   },
   {
     name: "Supabase",
     icon: "/icons/supabase.svg",
+    color: "rgba(62,207,142,0.5)",
   },
   {
     name: "Mysql",
     icon: "/icons/mysql.svg",
+    color: "rgba(0,153,255,0.5)",
   },
   {
     name: "Git",
     icon: "/icons/git.svg",
+    color: "rgba(255,51,51,0.5)",
   },
   {
     name: "TailwindCSS",
     icon: "/icons/tailwindcss.svg",
+    color: "rgba(34,153,190,0.5)",
   },
 ];
 

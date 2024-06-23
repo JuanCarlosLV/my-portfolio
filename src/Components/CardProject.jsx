@@ -3,6 +3,8 @@ import ToolPill from "./ToolPill";
 import SocialButton from "./Buttons/SocialButton";
 
 function CardProject({ project }) {
+  
+
   return (
     <>
       <article
@@ -37,6 +39,7 @@ function CardProject({ project }) {
               label={"Código"}
               url={project.github}
             />
+
             <SocialButton
               logo="/icons/website.svg"
               label={"Sitio web"}
